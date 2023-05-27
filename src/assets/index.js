@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import cogitate from "./company/cogitate.png";
+import sinss from "./company/sinss.png";
+import coding_ninjas from "./company/coding_ninjas.png"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -57,6 +59,8 @@ export {
     shopify,
     starbucks,
     cogitate,
+    coding_ninjas,
+    sinss,
     tesla,
     carrent,
     jobit,
