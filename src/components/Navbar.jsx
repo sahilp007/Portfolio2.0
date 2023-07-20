@@ -55,7 +55,7 @@ const Navbar = () => {
                   active === "Resume" ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
           >
-            <a href="/src/assets/Sahil Prasad Resume 04.23.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="/src/assets/Sahil_Prasad_Resume_04.23.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           </li>
           {navLinks.map((nav) => (
             <li
