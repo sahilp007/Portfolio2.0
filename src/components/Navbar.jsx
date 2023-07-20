@@ -50,6 +50,13 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          <li
+              className={`${
+                  active === "Resume" ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+          >
+            <a href="/src/assets/Sahil Prasad Resume 04.23.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
