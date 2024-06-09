@@ -41,7 +41,7 @@ const services = [{
 }, {
     title: "Webflow Developer", icon: backend,
 }, {
-    title: "Automation", icon: creator,
+    title: "Automator", icon: creator,
 },];
 
 const technologies = [{
