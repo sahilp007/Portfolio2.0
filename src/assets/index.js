@@ -20,11 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png"
+import graphql from "./tech/graphql.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import cogitate from "./company/cogitate.png";
+import edge from "./company/edge.png"
 import sinss from "./company/sinss.png";
 import coding_ninjas from "./company/coding_ninjas.png"
 import tesla from "./company/tesla.png";
@@ -32,6 +36,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import guildhub from './guildhub.png';
 
 export {
     logo,
@@ -55,14 +60,19 @@ export {
     tailwind,
     typescript,
     threejs,
+    nextjs,
+    python,
+    graphql,
     meta,
     shopify,
     starbucks,
     cogitate,
+    edge,
     coding_ninjas,
     sinss,
     tesla,
     carrent,
     jobit,
     tripguide,
+    guildhub,
 };
