@@ -1,4 +1,5 @@
 import {
+    angularjs,
     backend,
     coding_ninjas,
     cogitate,
@@ -24,6 +25,7 @@ import {
     tripguide,
     typescript,
     web,
+    zestiot,
 } from "../assets";
 
 export const navLinks = [{
@@ -45,6 +47,8 @@ const services = [{
 },];
 
 const technologies = [{
+    name: "Angular JS", icon: angularjs,
+}, {
     name: "React JS", icon: reactjs,
 }, {
     name: "Next JS", icon: nextjs,
@@ -77,12 +81,26 @@ const technologies = [{
 ];
 
 const experiences = [{
+    title: "Senior Software Developer",
+    company_name: "AVR Edge Networks",
+    company_url: "https://zestiot.com/",
+    icon: zestiot,
+    iconBg: "#fdfdfd",
+    date: "Jul 2024 - Present",
+    points: [
+        "Owned the design and delivery of 4 enterprise-scale aviation turnaround and IoT solutions, reducing deployment time by 15% and increasing customer adoption by 200%.",
+        "Introduced brand guidelines and enforced code standards, architecting a modular front-end system.",
+        "Trained the team to boost coding efficiency while onboarding 6 junior developers.",
+        "Led modularization efforts to streamline development and improve maintainability.",
+        "Created impactful solutions that enhanced productivity and accelerated project delivery.",
+    ],
+}, {
     title: "SDE 1",
     company_name: "AVR Edge Networks",
     company_url: "https://getedge.ai/",
     icon: edge,
     iconBg: "#383E56",
-    date: "Oct 2022 - Present",
+    date: "Aug 2023 - Oct 2023",
     points: ["Led the development of user-facing features, transforming complex designs into smooth, high-quality code.",
         "Worked closely with various teams, contributing to agile development cycles for efficient project completion.",
         "Conducted comprehensive code reviews, ensuring code quality and adherence to project standards.",
@@ -94,7 +112,7 @@ const experiences = [{
     company_url: "https://cogitate.us/",
     icon: cogitate,
     iconBg: "#383E56",
-    date: "Dec 2021 - Aug 2022",
+    date: "Oct 2022 - Apr 2023",
     points: ["Created Packages and libraries for the organization to enhance organization-wide productivity and reduce development time.",
         "Demonstrated ability to work independently and efficiently, serving as the sole front-end developer on projects",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -164,7 +182,7 @@ const projects = [{
     },],
     image: guildhub,
     source_code_link: "https://github.com/sahilp007/meta-discord",
-    deployed_link: "https://guildhub.up.railway.app/",
+    deployed_link: "https://guildhub.netlify.app/",
 }, {
     name: "Job IT",
     description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",

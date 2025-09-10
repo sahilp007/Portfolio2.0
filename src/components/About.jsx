@@ -47,7 +47,7 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
             >
-                I'm a skilled software developer adept at React.js, TypeScript, and Next.js, crafting dynamic user
+                I'm a skilled software developer adept at Angular.js, React.js, TypeScript, and Next.js, crafting dynamic user
                 interfaces and real-time applications. Proficient in agile methodologies, I thrive in cross-functional
                 collaboration, translating intricate designs into high-quality, seamless code. A self-motivated
                 problem-solver with strong communication skills, I'm committed to delivering impactful solutions that

@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png";
 import python from "./tech/python.png"
 import graphql from "./tech/graphql.png"
+import angularjs from "./tech/angular.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,6 +33,7 @@ import edge from "./company/edge.png"
 import sinss from "./company/sinss.png";
 import coding_ninjas from "./company/coding_ninjas.png"
 import tesla from "./company/tesla.png";
+import zestiot from "./company/zestiot.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,6 +41,7 @@ import tripguide from "./tripguide.png";
 import guildhub from './guildhub.png';
 
 export {
+    angularjs,
     logo,
     backend,
     creator,
@@ -75,4 +78,5 @@ export {
     jobit,
     tripguide,
     guildhub,
+    zestiot,
 };
