@@ -56,7 +56,7 @@ const Navbar = () => {
                             active === "Resume" ? "text-white" : "text-secondary"
                         } hover:text-white text-[18px] font-medium cursor-pointer`}
                     >
-                        <a href='https://drive.google.com/file/d/1eph7F3cIqzbl6LYmKKM9W4oG-ok1TZOd/view?usp=sharing' target="_blank"
+                        <a href='https://drive.google.com/file/d/1v3B8r8448ZBWYtZItcygcTNFCn0vRpTq/view?usp=sharing' target="_blank"
                            rel="noopener noreferrer">Resume</a>
                     </li>
                     {navLinks.map((nav) => (
